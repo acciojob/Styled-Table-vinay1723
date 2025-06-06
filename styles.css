@@ -1,1 +1,49 @@
 /* your code */
+
+table {
+	border:none;
+}
+
+table > thead {
+	background-color:#215A8E;
+	color:white;
+	
+	
+}
+
+ th {
+	width:300px;
+	text-align:left;
+	 padding:10px;
+	font-size:12px
+}
+
+td {
+	width:300px;
+	padding:10px;
+	
+}
+
+tbody > tr > td {
+	color:#686868;
+}
+
+tbody > tr:nth-child(even) {
+	background-color:#DDDDDD;
+	color:gray;
+	font-weight:50%;
+}
+
+thead > tr > th:first-child {
+	border-top-left-radius:10px;
+}
+thead > tr > th:last-child {
+	border-top-right-radius:10px;
+}
+
+tbody > tr:last-child > td:first-child {
+	border-bottom-left-radius:10px;
+}
+tbody > tr:last-child > td:last-child {
+	border-bottom-right-radius:10px;
+}
